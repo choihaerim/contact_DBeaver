@@ -1,0 +1,25 @@
+mini mission
+
+1. 사원 table 새로 생성
+	기존 table을 복제
+	단 제약 조건은 복제 안 함
+	
+2. 원본 - emp
+   생성할 복제 - emp2 table
+   	empno - 사번/ename - 사원명 / job - 직무 / mgr - 상사의 사번 / sal - 월급여  / comm - 보너스(영업부 사원만 해당) / deptno - 부서번호
+   	
+
+3. 메소드 (기능)
+	1. 모든 사원의 급여 총합 검색
+		
+	2. comm 받는 사원 수	
+	
+	3. 부서번호가 10번인 부서들의 이름만 검색
+	
+	4. 두가지 메소드는 자기주도식으로 구현하기 ???
+	
+	총 5개의 기능의 메소드 구현 및 test
+	
+4. 소스 위치
+	step03.mission.DeptDAOMission.java
+		- main()로 확인 	
